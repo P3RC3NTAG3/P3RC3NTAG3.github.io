@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face{
+  font-family: Jost;
+  src: url("/Jost-VariableFont_wght.ttf");
+  font-style: normal;
+}
+@font-face{
+  font-family: Jost;
+  src: url("/Jost-Italic-VariableFont_wght.ttf");
+  font-style: italic;
+}
 *{font-family:Jost,sans-serif,system-ui;}
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,sans-serif,system-ui;}
