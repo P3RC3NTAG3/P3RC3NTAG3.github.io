@@ -1,21 +1,21 @@
 @font-face{
   font-family: Jost;
-  src: url("/Jost-VariableFont_wght.ttf") format("ttf");
+  src: url("/Jost-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
 }
 @font-face{
   font-family: Jost;
-  src: url("/Jost-Italic-VariableFont_wght.ttf") format("ttf");
+  src: url("/Jost-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
 @font-face{
   font-family: Montserrat;
-  src: url("/Montserrat-VariableFont_wght.ttf") format("ttf");
+  src: url("/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
 }
 @font-face{
   font-family: Montserrat;
-  src: url("/Montserrat-Italic-VariableFont_wght.ttf") format("ttf");
+  src: url("/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
 *{font-family:Jost,sans-serif,system-ui;}
