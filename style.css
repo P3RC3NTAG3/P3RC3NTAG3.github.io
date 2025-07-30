@@ -18,5 +18,5 @@
   src: url("/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
-*{font-family:Jost,sans-serif,system-ui;font-feature-settings:"ss01";}
+*{font-family:Jost,Arial,sans-serif,system-ui;font-feature-settings:"ss01";}
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,sans-serif,system-ui;font-feature-settings:normal;font-weight:bold;font-feature-settings:"tnum";}
