@@ -8,15 +8,5 @@
   src: url("/Jost-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
-@font-face{
-  font-family: Montserrat;
-  src: url("/Montserrat-VariableFont_wght.ttf") format("truetype");
-  font-style: normal;
-}
-@font-face{
-  font-family: Montserrat;
-  src: url("/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
-  font-style: italic;
-}
 *{font-family:Jost,Arial,sans-serif,system-ui;font-feature-settings:"ss01";}
 h1,h2,h3,h4,h5,h6{font-family:Arial,sans-serif,system-ui;font-feature-settings:"ss03";}
