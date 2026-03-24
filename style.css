@@ -1,13 +1,3 @@
-@font-face{
-  font-family: Jost;
-  src: url("/Jost-VariableFont_wght.ttf") format("truetype");
-  font-style: normal;
-}
-@font-face{
-  font-family: Jost;
-  src: url("/Jost-Italic-VariableFont_wght.ttf") format("truetype");
-  font-style: italic;
-}
 @font-face {
   font-family: InterVariable;
   font-style: normal;
