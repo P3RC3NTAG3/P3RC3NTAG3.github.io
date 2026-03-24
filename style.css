@@ -22,8 +22,7 @@
   font-display: swap;
   src: url('font-files/InterVariable-Italic.woff2?v=4.1') format('woff2');
 }
-*{font-family:Jost,Arial,sans-serif,system-ui;font-feature-settings:"ss01";}
+*{font-family:InterVariable,Inter,Roboto,Jost,Arial,sans-serif,system-ui !important;font-feature-settings:"cv01","cv10","ss07","ss08";}
 body{margin:0;}
-h1,h2,h3,h4,h5,h6{font-family:InterVariable,Inter,Roboto,Jost,Arial,sans-serif,system-ui !important;font-feature-settings:"salt";}
 .top{background-color:#28a;color:white;padding:10px;display:flex;align-items:flex-start;}
 .top h1{margin:0;margin-left:10px;line-height:1;}
