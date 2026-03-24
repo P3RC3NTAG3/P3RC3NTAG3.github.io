@@ -3,14 +3,14 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url('font-files/InterVariable.woff2?v=4.1') format('woff2');
+  src: url('https://rsms.me/inter/font-files/InterVariable.woff2?v=4.1') format('woff2');
 }
 @font-face {
   font-family: InterVariable;
   font-style: italic;
   font-weight: 100 900;
   font-display: swap;
-  src: url('font-files/InterVariable-Italic.woff2?v=4.1') format('woff2');
+  src: url('https://rsms.me/inter/font-files/InterVariable-Italic.woff2?v=4.1') format('woff2');
 }
 *{font-family:InterVariable,Inter,Roboto,Jost,Arial,sans-serif,system-ui !important;font-feature-settings:"cv01","cv10","ss07","ss08";}
 body{margin:0;}
