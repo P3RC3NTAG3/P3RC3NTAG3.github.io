@@ -14,6 +14,6 @@
 }
 *{font-family:InterVariable,Inter,Roboto,Jost,Arial,sans-serif,system-ui !important;font-feature-settings:"cv01","cv10","ss07","ss08";justify-content:center;text-align:center;}
 body{margin:0;}
-.top{background-color:#28a;color:white;padding:10px;display:flex;align-items:flex-start;}
+.top, .top *{background-color:#28a;color:white !important;padding:10px;display:flex;align-items:flex-start;}
 .top h1{margin:0;margin-left:10px;line-height:1;}
 a,a *{text-decoration:none;color:blue;}
