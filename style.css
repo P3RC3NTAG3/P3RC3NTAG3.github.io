@@ -16,4 +16,5 @@
 body{margin:0;}
 .top, .top *{background-color:#28a;color:white !important;padding:10px;display:flex;align-items:flex-start;}
 .top h1{margin:0;margin-left:10px;line-height:1;}
-a,a *{text-decoration:none;color:blue;font-feature-settings:"cv01","cv10" 0,"ss03","ss07" 0,"ss08" 0 !important;}
+a,a *{text-decoration:none;color:blue;}
+i{font-feature-settings:"cv01","cv10" 0,"ss03","ss07" 0,"ss08" 0 !important;}
