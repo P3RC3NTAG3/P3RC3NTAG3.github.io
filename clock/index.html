@@ -26,7 +26,7 @@
             var timeFormat=false;
             function updateClockDiv() {
                 newDate=new Date();
-                clockDiv.innerHTML=newDate.toLocaleTimeString([],{hour12:timeFormat});
+                clockDiv.innerHTML=newDate.toLocaleTimeString([],{hour12:timeFormat,hour:"2-digit",minute:"2-digit",second:"2-digit"});
             };
             function toggleTimeFormat() {
                 timeFormat=!timeFormat;
