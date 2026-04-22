@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #time {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font: bold 16vw "Segoe UI Variable Display",system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+                font-feature-settings: "tnum";
+            }
+            body {
+                background-color:black;
+                color:white;
+                margin: 0;
+            }
+        </style>
+        <title>Clock | P3RC3NTAG3</title>
+    </head>
+    <body>
+        <div id="time" onclick="toggleTimeFormat()">12:34:56</div>
+        <script>
+            var newDate=new Date();
+            const clockDiv=document.getElementById("time");
+            var timeFormat=false;
+            function updateClockDiv() {
+                newDate=new Date();
+                clockDiv.innerHTML=newDate.toLocaleTimeString([],{hour12:timeFormat});
+            };
+            function toggleTimeFormat() {
+                timeFormat=!timeFormat;
+                updateClockDiv()
+            }
+            updateClockDiv();
+            setInterval(updateClockDiv,1000);
+        </script>
+    </body>
+</html>
