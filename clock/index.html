@@ -22,7 +22,7 @@
         <div id="time" onclick="toggleTimeFormat()">12:34:56</div>
         <script>
             var newDate=new Date();
-            const clockDiv=document.getElementById("time");
+            var clockDiv=document.getElementById("time"); // remove const to support older browsers
             var timeFormat=false;
             function updateClockDiv() {
                 newDate=new Date();
@@ -35,5 +35,32 @@
             updateClockDiv();
             setInterval(updateClockDiv,1000);
         </script>
+        <noscript>
+            <div style="font-size:24px;">This clock requires <b>JavaScript</b> to run. Please enable it in your settings.</div>
+            <hr>
+            <b>Chrome:</b>
+            <ol>
+                <li>Type <b>chrome://settings</b> into the address bar</li>
+                <li>Go to the <b>Privacy and Security</b> tab</li>
+                <li>Click <b>Site settings</b></li>
+                <li>Scroll down and click <b>JavaScript</b></li>
+                <li>Click on the button labeled <b>Sites can use JavaScript</b></li>
+            </ol>
+            <hr>
+            <b>Firefox:</b>
+            <ol>
+                <li>
+                    Type <b>about:config</b> into the address bar
+                    <ul>
+                        <li>
+                            If a warning pop-up appears, click <b>Accept the Risk and Continue</b><br>
+                            However, you shouldn't always trust a website that tells you to do this.
+                        </li>
+                    </ul>
+                </li>
+                <li>Find the <code>javascript.enabled</code> preference.</li>
+                <li>If <code>javascript.enabled</code> is <code>false</code>, click the Toggle or Reset button to set it to <code>true</code>.</li>
+            </ol>
+        </noscript>
     </body>
 </html>
