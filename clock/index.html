@@ -4,15 +4,22 @@
         <style>
             @font-face {
                 font-family: InterNumeric;
+                font-display: swap;
                 src: url("https://p3rc3ntag3.github.io/projects/dependencies/internum.ttf") format("truetype")
+            }
+            @font-face {
+                font-family: InterVariable;
+                font-style: normal;
+                font-display: swap;
+                src: url('https://rsms.me/inter/font-files/InterVariable.woff2?v=4.1') format('woff2');
             }
             #time {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 100vh;
-                font-family: ui-rounded, InterNumeric, "Google Sans Flex", sans-serif;
-                font-size: 16vw;
+                font-family: ui-rounded, InterNumeric, InterVariable, sans-serif;
+                font-size: 15vw;
                 font-feature-settings: "case", "tnum";
                 font-variation-settings: "wght" 700, "RDNS" 1;
             }
