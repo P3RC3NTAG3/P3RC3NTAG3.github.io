@@ -12,9 +12,8 @@
   font-display: swap;
   src: url('https://rsms.me/inter/font-files/InterVariable-Italic.woff2?v=4.1') format('woff2');
 }
-*{font-family:InterVariable,Inter,Roboto,Jost,Arial,sans-serif,system-ui !important;font-feature-settings:"cv01","cv10","ss07","ss08";justify-content:center;text-align:center;}
+*{font-family:InterVariable,Inter,Roboto,Jost,Arial,sans-serif,system-ui !important;justify-content:center;text-align:center;}
 body{margin:0;}
 .top, .top *{background-color:#28a;color:white !important;padding:10px;display:flex;align-items:flex-start;}
 .top h1{margin:0;margin-left:10px;line-height:1;}
 a,a *{text-decoration:none;color:blue;}
-i{font-feature-settings:"cv01","cv10" 0,"ss03","ss07" 0,"ss08" 0 !important;}
