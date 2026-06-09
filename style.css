@@ -27,6 +27,7 @@
   font-family: PlusJakartaSans, ui-sans-serif, system-ui, sans-serif !important;
   justify-content: center;
   text-align: center;
+  font-weight: 500;
 }
 
 body {
@@ -54,4 +55,16 @@ a, a * {
 
 h1,h2,h3{
   font-variant-alternates: styleset(lancip);
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 475;
 }
