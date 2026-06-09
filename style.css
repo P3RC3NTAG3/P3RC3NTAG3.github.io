@@ -1,19 +1,57 @@
 @font-face {
-  font-family: InterVariable;
+  font-family: PlusJakartaSans;
   font-style: normal;
-  font-weight: 100 900;
+  font-weight: 200 800;
   font-display: swap;
-  src: url('https://rsms.me/inter/font-files/InterVariable.woff2?v=4.1') format('woff2');
+  src: url(projects/dependencies/PlusJakartaSans.woff2) format('woff2');
 }
+
 @font-face {
-  font-family: InterVariable;
+  font-family: PlusJakartaSans;
   font-style: italic;
-  font-weight: 100 900;
+  font-weight: 200 800;
   font-display: swap;
-  src: url('https://rsms.me/inter/font-files/InterVariable-Italic.woff2?v=4.1') format('woff2');
+  src: url(projects/dependencies/PlusJakartaSansItalic.woff2) format('woff2');
 }
-*{font-family:InterVariable,Inter,Roboto,Jost,Arial,sans-serif,system-ui !important;justify-content:center;text-align:center;}
-body{margin:0;}
-.top, .top *{background-color:#28a;color:white !important;padding:10px;display:flex;align-items:flex-start;}
-.top h1{margin:0;margin-left:10px;line-height:1;}
-a,a *{text-decoration:none;color:blue;}
+
+@font-feature-values PlusJakartaSans {
+  @styleset {
+    ss01: 1; ss02: 2; ss03: 3;
+    lancip: 1;
+    lurus: 2;
+    lingkar: 3;
+  }
+}
+
+* {
+  font-family: PlusJakartaSans, ui-sans-serif, system-ui, sans-serif !important;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  margin:0;
+}
+
+.top, .top * {
+  background-color: #28a;
+  color: white !important;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.top h1 {
+  margin: 0;
+  margin-left: 10px;
+  line-height: 1;
+}
+
+a,a * {
+  text-decoration:none;
+  color:blue;
+}
+
+h1,h2,h3{
+  font-variant-alternates: styleset(lancip);
+}
