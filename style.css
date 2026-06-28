@@ -2,7 +2,7 @@
   font-family: "Cal Sans Flex";
   font-weight: 400 700;
   font-display: swap;
-  src: url(projects/dependencies/CalSansFlex.ttf) format('truetype-variations');
+  src: url(projects/dependencies/CalSansFlexVF.ttf) format('truetype-variations');
 }
 
 @font-feature-values PlusJakartaSans {
