@@ -5,42 +5,12 @@
   src: url(projects/dependencies/CalSansFlexVF.ttf) format('truetype-variations');
 }
 
-@font-feature-values PlusJakartaSans {
-  @styleset {
-    geometric-a: 1;
-    humanist-a: 2;
-    geometric-lc-g: 3;
-    gothic-g: 4;
-    geometric-uc-g: 5;
-    humanist-g: 6;
-    constructed-jy: 7;
-    constructed-ft: 8;
-    angular-m: 9;
-    futura-alt: 10;
-    futura-alt-lig: 11;
-    humanist-69: 12;
-    geometric-69: 13;
-    a11y: 14;
-    constructed-l: 16;
-  }
-  @character-variant {
-    geometric-a: 1;
-    geometric-uc-g: 2;
-    geometric-c: 3;
-    geometric-j: 4;
-    geometric-t: 5;
-    geometric-u: 6;
-    geometric-0: 7;
-    geometric-1: 8;
-  }
-}
-
 * {
   font-family: "Cal Sans Flex", "Futura PT", Futura, "Tw Cen MT", -apple-system, BlinkMacSystemFont, Inter, Roboto, ui-sans-serif, system-ui, sans-serif;
   justify-content: center;
   text-align: center;
   font-variation-settings: "GEOM" 100, "YTAS" 800, "SHRP" 100;
-  font-variant-alternates: styleset(futura-alt-lig);
+  font-feature-settings: "ss11";
   font-optical-sizing: auto !important;
 }
 
