@@ -41,6 +41,7 @@
   text-align: center;
   font-variation-settings: "GEOM" 100, "YTAS" 800, "SHRP" 100;
   font-variant-alternates: styleset(futura-alt-lig);
+  font-optical-sizing: auto !important;
 }
 
 body {
