@@ -8,3 +8,4 @@ The `/projects/dependencies/` folder is back. These are dependencies for things 
 | --- | --- |
 | `PlusJakartaSans.woff2` | The [Plus Jakarta Sans font](https://github.com/tokotype/PlusJakartaSans/) in the Upright style. Licensed under [OFL 1.1](https://github.com/tokotype/PlusJakartaSans/blob/master/OFL.txt). |
 | `PlusJakartaSansItalic.woff2` | The [Plus Jakarta Sans font](https://github.com/tokotype/PlusJakartaSans/) in the Italic style. Licensed under [OFL 1.1](https://github.com/tokotype/PlusJakartaSans/blob/master/OFL.txt). |
+| `CalSansFlexVF.ttf` | The [Cal Sans font](https://github.com/calcom/sans). Licensed under [OFL 1.1](https://raw.githubusercontent.com/calcom/sans/main/OFL.txt). |
