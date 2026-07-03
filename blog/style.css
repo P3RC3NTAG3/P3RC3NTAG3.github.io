@@ -3,7 +3,7 @@
   --sans-font-stack: Aptos, -apple-system, BlinkMacSystemFont, Helvetica, ui-sans-serif, "Nimbus Sans", NimbusSans, Arial, A030, Arimo, "Liberation Sans", sans-serif;
   --serif-font-stack: "Aptos Serif", -apple-system-ui-serif, ui-serif, Georgia, Gelasio, "Times New Roman", "Nimbus Roman No9 L", "Nimbus Roman", Tinos, "Liberation Serif", serif;
   --mono-font-stack: "Aptos Mono", SFMono-Regular, ui-monospace, "Cascadia Code", Consolas, "DMCA Sans Serif", "Lucida Console", "Lucida Sans Typewriter", "Lucida Typewriter",  "Luxi Mono", Courier, "Courier New", "Nimbus Mono", "Nimbus Mono PS", Cousine, "Liberation Mono", monospace;
-  --body-width: 768px;
+  --body-width: 946px;
   --bg-color: #111;
   --text-color: #eee;
 }
