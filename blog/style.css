@@ -18,7 +18,6 @@ body {
   max-width: var(--body-width);
   color: var(--text-color);
   font-family: var(--serif-font-stack);
-  font-feature-settings: "pnum";
   margin: 0 auto;
   padding: 0 1rem;
 }
