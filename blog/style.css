@@ -1,0 +1,42 @@
+/* Feel free to copy this CSS to your blog! Please just give credit to P3RC3NTAG3 in a comment at the top */
+:root {
+  --sans-font-stack: Aptos, -apple-system, BlinkMacSystemFont, Helvetica, ui-sans-serif, "Nimbus Sans", NimbusSans, Arial, A030, Arimo, "Liberation Sans", sans-serif;
+  --serif-font-stack: "Aptos Serif", -apple-system-ui-serif, ui-serif, Georgia, Gelasio, "Times New Roman", "Nimbus Roman No9 L", "Nimbus Roman", Tinos, "Liberation Serif", serif;
+  --mono-font-stack: "Aptos Mono", SFMono-Regular, ui-monospace, "Cascadia Code", Consolas, "DMCA Sans Serif", "Lucida Console", "Lucida Sans Typewriter", "Lucida Typewriter",  "Luxi Mono", Courier, "Courier New", "Nimbus Mono", "Nimbus Mono PS", Cousine, "Liberation Mono", monospace;
+  --body-width: 768px;
+  --bg-color: #111;
+  --text-color: #eee;
+}
+
+html {
+  background-color: var(--bg-color);
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: var(--body-width);
+  color: var(--text-color);
+  font-family: var(--serif-font-stack);
+  font-feature-settings: "pnum";
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3, small {
+  font-family: var(--sans-font-stack) !important;
+}
+
+code {
+  font-family: var(--mono-font-stack) !important;
+  background-color: #00000000;
+  font-size: 100% !important;
+}
+
+.tabular-nums {
+  font-feature-settings: "tnum";
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
