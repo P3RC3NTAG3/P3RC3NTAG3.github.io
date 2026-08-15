@@ -42,7 +42,7 @@ i, i *, em, em * {
   font-style: normal;
 }
 
-b, b *, strong, strong *, h1, h1 *, h2, h2 *, h3, h3 *, h4, h4 *, h5, h5 *, h6, h6 * {
+b, b *, strong, strong *, h1, h1 *, h2, h2 *, h3, h3 *, h4, h4 *, h5, h5 *, h6, h6 *, .kao-banner {
   font-variation-settings: "GEOM" 100, "YTAS" 800, "SHRP" 0 !important;
 }
 
